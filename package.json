@@ -1,0 +1,25 @@
+{
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "description": "Repositório para o desenvolvimento do curso.dev",
+  "homepage": "https://github.com/josanjohnata/clone-tabnews#readme",
+  "bugs": {
+    "url": "https://github.com/josanjohnata/clone-tabnews/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josanjohnata/clone-tabnews.git"
+  },
+  "license": "MIT",
+  "author": "@josanjohnata",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "^16.0.10",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
+}
