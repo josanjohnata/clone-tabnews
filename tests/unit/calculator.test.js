@@ -1,4 +1,4 @@
-import { sum } from "../models/calculator.js";
+import { sum } from "../../models/calculator.js";
 
 test("soma 1 + 2 e retorna 3", () => {
   const result = sum(1, 2);
