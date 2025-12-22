@@ -20,10 +20,11 @@
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
-    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watch"
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watchAll"
   },
   "dependencies": {
     "next": "^16.0.10",
+    "pg": "^8.16.3",
     "react": "^19.2.3",
     "react-dom": "^19.2.3"
   },
